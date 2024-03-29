@@ -1,5 +1,6 @@
 **VIDEO LINK** https://drive.google.com/file/d/19U71bwDEkxRu6nmOR7XdnjooA69O6fn2/view?usp=sharing
- **EXPLANATION** **Q1 CODE** 1. Import Libraries: It starts by importing necessary libraries. `tweepy` is used for accessing the Twitter API, `keras` is used for building and loading the neural network model, and `re` for regular expression operations. 
+
+**EXPLANATION** **Q1 CODE** 1. Import Libraries: It starts by importing necessary libraries. `tweepy` is used for accessing the Twitter API, `keras` is used for building and loading the neural network model, and `re` for regular expression operations. 
 2. Load Pre-trained Model: The pre-trained sentiment analysis model is loaded from a saved file (`sentiment_model.h5`). This model is assumed to be trained to classify text into sentiments.
 3. Preprocess Text: The `preprocess text` function is defined to clean the input text by converting it to lowercase and removing non-alphanumeric characters. This ensures the model receives the text in the format it expects. 
 4. Example Text: A sample tweet is provided as `new text`. This text is then preprocessed to remove unwanted characters and format it properly. 
